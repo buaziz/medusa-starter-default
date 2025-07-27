@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'buaziz-medusa'
           slot-name: 'Production'
-          package: .
+          package: ./ --exclude=node_modules
           
